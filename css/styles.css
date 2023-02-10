@@ -1,0 +1,160 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.rotate{
+    transform: rotate(25deg);
+    position: absolute;
+    height: 65%;
+    max-width: 60%;
+    margin-left: 200px;
+}
+.phone-img{
+    position: relative;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.btn{
+    margin-top: 2rem;
+    margin : 2rem 1rem 2rem 0;
+}
+.nav-link{
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #ff4c68; 
+}
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2rem;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    
+}
+.fa-4x{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.fa-4x:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+.carosal-item{
+    padding: 7% 15%;
+
+}
+
+#testimonials{
+ 
+ text-align: center;
+ background-color: #ef8172;
+ color: #fff;
+
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    padding: 20px 15px 20px 50px;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+/* PRICING */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colomn{
+    padding: 3% 2%;
+}
+
+@media (max-width:1080px){
+    .rotate{
+        position: static;
+        transform: rotate(0);
+        /* margin-top: 50px; */
+        margin: 50px auto 0;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* Call to actiom */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #ffff;
+
+}
+#footer{
+    padding: 7% 15% 2%;
+    text-align: center;
+}
+#icon{
+    margin: 2% 1%;
+}
